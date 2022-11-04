@@ -3,7 +3,7 @@ function New-KsAccessToken {
         [string]$accessTokenPath = "$env:USERPROFILE\.creds\KeySMS\keySmsAccessToken.xml"
     )
 
-    $apiKey = Read-Host "Enter API key" -AsSecureString
+    $apiKey = Read-Host "Enter KeySMS API key" -AsSecureString
 
     #Create parent folders of the access token file
     $accessTokenDir = $accessTokenPath.Substring(0, $accessTokenPath.lastIndexOf('\'))

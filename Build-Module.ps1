@@ -1,9 +1,9 @@
 #Requires -Module ModuleBuilder
 [string]$moduleName = "NN.KeySMS"
-[version]$version = "0.0.2"
+[version]$version = "0.0.3"
 [string]$author = "NorskNoobing"
 [string]$ProjectUri = "https://github.com/$author/$moduleName"
-[string]$releaseNotes = "Move New-KsAccessToken to public functions"
+[string]$releaseNotes = "Update New-KsAccessToken to specify what accesstoken it needs for its input"
 [string]$description = "KeySMS API integration"
 [array]$tags = @("KeySMS","SMS","API")
 [version]$PSversion = "7.2"
